@@ -1,0 +1,87 @@
+html, body {
+	height: 100%;
+	background: hsl(0, 0%, 85%);
+	overflow: scroll;
+}
+/*TOP BOX*/
+.cont {
+	background: #fff;
+	display: flex;
+	justify-content: space-around;
+	margin: 20px 50px 20px 50px;
+}
+.top {
+	height: 30%;
+	display: flex;
+	flex-direction: column;
+}
+
+.text {
+	font-size: 1em;
+	font-family: 'verdana', sans-serif;
+	padding: 20px;
+}
+.buttonCont {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	height: 50%;
+	width: 50%;
+}
+.button {
+	padding: 5px;
+	font-family: 'verdana', sans-serif;
+	color: white;
+	text-align: center;
+	font-size: 1em;
+	height: 35%;
+	width: 20%;
+}
+.button:hover{
+	text-decoration: underline;
+	text-shadow: 1px 1px 1px hsl(0, 0%, 29%);
+	opacity: 0.6;
+}
+/*MID BOX*/
+.mid {
+	display: flex;
+	flex-direction: column;
+	height: 60%;
+}
+.img {
+	margin-top: 20px;
+	margin-left: 100px;
+	height: 85%;
+	width: 75%;
+	background: url("http://www.wordinfo.info/words/images/fire-boiler.gif");
+}
+.textTwo {
+	padding: 20px;
+	font-size: 1em;
+	font-family: 'verdana', sans-serif;
+}
+
+/*FOOTER*/
+.foot {
+	display: flex;
+	justify-content: flex-end;
+	height: 10%;
+}
+.linkage {
+	text-decoration: none;
+	color: white;
+	float: right;
+	font-family: 'verdana', 'sans-serif';
+	margin: 20px 20px 0px 10px;
+}
+
+/*COLORS*/
+.blue {
+	background: hsl(212, 73%, 59%);
+}
+.red {
+	background: hsl(353, 98%, 41%);
+}
+.dark {
+	background: hsl(0, 0%, 29%);
+}
