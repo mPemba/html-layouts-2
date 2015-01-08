@@ -1,0 +1,35 @@
+html, body {
+	height: 100%;
+}
+.head {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.main {
+	padding: 40px;
+	-webkit-column-count: 2;
+	-moz-column-count: 2;
+	column-count: 2;
+}
+.img {
+	height: 235px;
+	width: 300px;
+	background: hsl(0, 0%, 85%);
+}
+
+.foot {
+	height: 10%;
+}
+
+.dark {
+	background: hsl(0, 0%, 29%);
+}
+
+.linkage {
+	color: white;
+	font-family: 'verdana', sans-serif;
+	font-size: 1em;
+	padding: 30px;
+	text-decoration: none;
+}
